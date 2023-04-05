@@ -47,7 +47,7 @@ LEFT=$php
 MIDDLE=""
 RIGHT=""
 URL="https://github.com/typecho/typecho/releases/download/ci/typecho.zip"
-PLATFORM="linux/ppc64le,linux/s390x,linux/amd64,linux/arm64"
+PLATFORM="linux/amd64"
 PUSH=""
 CONFIG="-dir=/usr/include/"
 BUILDX="build"
