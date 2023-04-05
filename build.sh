@@ -125,5 +125,5 @@ else
     echo "PLATFORM=${PLATFORM}" >> $GITHUB_OUTPUT
     echo "PHP8_SOCKETS_WORKAROUND=${PHP8_SOCKETS_WORKAROUND}" >> $GITHUB_OUTPUT
     echo "PHP_EXTENSION=${PHP_EXTENSION}" >> $GITHUB_OUTPUT
-    echo "VERSION=he0119/typecho:${version}-php${TAG}" >> $GITHUB_OUTPUT
+    echo "VERSION=ghcr.io/he0119/typecho:${version}-php${TAG}" >> $GITHUB_OUTPUT
 fi
